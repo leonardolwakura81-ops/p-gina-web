@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonardo Espina · Sitio personal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <p class="topbar__logo">Leonardo Espina</p>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero">
+      <div class="hero__frame">
+        <img src="img/perfil.jpg" alt="Foto de perfil de Leonardo Espina" class="hero__photo">
+      </div>
+      <div class="hero__text">
+        <p class="hero__kicker">Desarrollo de Software Multiplataforma · UTeQ</p>
+        <h1>Hola, soy Leonardo</h1>
+        <p class="hero__lead">
+          Estudiante de Desarrollo de Software en la Universidad Tecnológica de Querétaro.
+          Entre código, historias de ciencia ficción y un buen anime, voy construyendo
+          las cosas que algún día quiero contar.
+        </p>
+        <a href="#sobre-mi" class="btn">Conóceme</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+      <div class="about__inner">
+        <h2>Sobre mí</h2>
+        <p>
+          Me llamo Leonardo Claudio Espina Ríos y estudio Desarrollo de Software en la
+          Universidad Tecnológica de Querétaro. Me gustan los superhéroes, el anime y la
+          música, y me interesa algún día crear historias de ciencia ficción propias,
+          usando los recursos visuales de los cómics, el manga y el anime que tanto disfruto.
+        </p>
+        <p>
+          También me atrae la filosofía &mdash;el existencialismo en particular&mdash; y
+          últimamente he encontrado gusto en las conversaciones, en hacer amistades y en
+          salir a conocer gente nueva. En Desarrollo de Software espero seguir mejorando
+          como programador y, con el tiempo, acercar esa parte técnica a los mundos e
+          historias que me gustaría crear.
+        </p>
+      </div>
+    </section>
+
+    <section id="inspiracion" class="inspiration">
+      <div class="inspiration__inner">
+        <h2>Lo que me inspira</h2>
+        <p class="inspiration__intro">
+          Algunas de las imágenes y estilos que sigo mirando cuando pienso en las
+          historias que algún día quiero contar.
+        </p>
+        <div class="inspiration__grid">
+          <figure>
+            <img src="img/inspiracion-1.jpg" alt="Fotograma de anime estilo VHS con reloj y fecha">
+          </figure>
+          <figure>
+            <img src="img/inspiracion-2.jpg" alt="Ilustración de personaje de anime con capucha">
+          </figure>
+          <figure>
+            <img src="img/inspiracion-3.jpg" alt="Arte digital de personaje con parche en el ojo">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+      <div class="skills__inner">
+        <h2>Mis habilidades</h2>
+        <div class="skills__grid">
+
+          <article class="skill-card">
+            <span class="skill-card__mark">Ja</span>
+            <h3>Java</h3>
+            <p>Programación orientada a objetos</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-card__mark">Py</span>
+            <h3>Python</h3>
+            <p>Programación y lógica</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-card__mark">&lt;/&gt;</span>
+            <h3>HTML &amp; CSS</h3>
+            <p>Nivel básico</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-card__mark">Fr</span>
+            <h3>Francés</h3>
+            <p>Nivel básico</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-card__mark">Eq</span>
+            <h3>Enseñanza</h3>
+            <p>Explicar y guiar con claridad</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-card__mark">Ti</span>
+            <h3>Trabajo en equipo</h3>
+            <p>Colaboración y comunicación</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="contact__inner">
+        <h2>Contacto</h2>
+        <p class="contact__intro">
+          Puedes escribirme directamente o dejarme un mensaje por aquí.
+        </p>
+
+        <div class="contact__grid">
+          <ul class="contact__direct">
+            <li>
+              <span>Correo</span>
+              <a href="mailto:2025310059@uteq.edu.mx">2025310059@uteq.edu.mx</a>
+            </li>
+            <li>
+              <span>Teléfono</span>
+              <a href="tel:+524424601473">+52 442 460 1473</a>
+            </li>
+          </ul>
+
+          <form class="contact__form" action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+
+            <button type="submit" class="btn btn--form">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Leonardo Espina · Aplicaciones Web · 2026</p>
+  </footer>
+
+</body>
+</html>
